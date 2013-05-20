@@ -1,5 +1,8 @@
 --- 
 cursor_positions: 
+  - :path: public/hello.html
+    :cursor_offset: 121
+    :timestamp: 2013-05-17 09:40:41 +02:00
   - :path: public/index.html
     :cursor_offset: 0
     :timestamp: 2013-05-15 21:45:17 +02:00
@@ -9,7 +12,25 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 0
     :timestamp: 2013-05-15 21:47:51 +02:00
-  - :path: public/hello.html
+  - :path: config/routes.rb
     :cursor_offset: 121
-    :timestamp: 2013-05-17 09:40:41 +02:00
+    :timestamp: 2013-05-17 10:31:27 +02:00
+  - :path: app/controllers/static_pages_controller.rb
+    :cursor_offset: 107
+    :timestamp: 2013-05-17 10:32:34 +02:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-05-17 11:00:46 +02:00
+  - :path: spec/requests/static_pages_spec.rb
+    :cursor_offset: 1187
+    :timestamp: 2013-05-17 10:50:21 +02:00
+  - :path: app/views/static_pages/help.html.erb
+    :cursor_offset: 281
+    :timestamp: 2013-05-17 11:00:59 +02:00
+  - :path: app/views/static_pages/about.html.erb
+    :cursor_offset: 311
+    :timestamp: 2013-05-17 11:01:15 +02:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 300
+    :timestamp: 2013-05-17 11:02:32 +02:00
 files_to_retain: 0
