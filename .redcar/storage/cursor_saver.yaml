@@ -33,4 +33,10 @@ cursor_positions:
   - :path: Gemfile
     :cursor_offset: 620
     :timestamp: 2013-05-20 14:10:26 +02:00
+  - :path: "app/views/layouts/_footer.html.erb "
+    :cursor_offset: 325
+    :timestamp: 2013-05-20 20:02:57 +02:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 415
+    :timestamp: 2013-05-20 20:02:02 +02:00
 files_to_retain: 0
