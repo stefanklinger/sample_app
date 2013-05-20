@@ -9,9 +9,6 @@ cursor_positions:
   - :path: README.md
     :cursor_offset: 0
     :timestamp: 2013-05-15 21:52:48 +02:00
-  - :path: Gemfile
-    :cursor_offset: 0
-    :timestamp: 2013-05-15 21:47:51 +02:00
   - :path: config/routes.rb
     :cursor_offset: 121
     :timestamp: 2013-05-17 10:31:27 +02:00
@@ -33,4 +30,7 @@ cursor_positions:
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 300
     :timestamp: 2013-05-17 11:02:32 +02:00
+  - :path: Gemfile
+    :cursor_offset: 620
+    :timestamp: 2013-05-20 14:10:26 +02:00
 files_to_retain: 0
