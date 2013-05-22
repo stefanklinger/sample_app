@@ -7,7 +7,6 @@ gem 'bootstrap-sass', '2.1'
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '1.2.1'
-
 end
 
 # Gems used only for assets and not required
@@ -31,4 +30,8 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
+end
+
+group :development do
+  gem 'annotate', '2.5.0'
 end
