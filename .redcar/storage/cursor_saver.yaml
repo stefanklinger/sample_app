@@ -21,9 +21,6 @@ cursor_positions:
   - :path: app/views/static_pages/home.html.erb
     :cursor_offset: 370
     :timestamp: 2013-05-20 19:42:54 +02:00
-  - :path: spec/requests/static_pages_spec.rb
-    :cursor_offset: 902
-    :timestamp: 2013-05-21 21:24:12 +02:00
   - :path: app/views/static_pages/help.html.erb
     :cursor_offset: 0
     :timestamp: 2013-05-17 11:04:27 +02:00
@@ -66,4 +63,9 @@ cursor_positions:
   - :path: spec/support/utilities.rb
     :cursor_offset: 168
     :timestamp: 2013-05-21 21:23:16 +02:00
+  - :path: spec/requests/static_pages_spec.rb
+    :cursor_offset: 21
+    :timestamp: 2013-05-22 21:08:51 +02:00
+    :selection_offset: 0
+    :block_selection_mode: false
 files_to_retain: 0

@@ -1,4 +1,4 @@
-1369247943
+1369249875
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	/home/stefan/rails/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/stefan/rails/sample_app/app/controllers/application_controller.rb	class ApplicationController 
@@ -16,8 +16,12 @@ UsersHelper	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	module Use
 about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def about
 contact	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
-full_title	/home/stefan/rails/sample_app/spec/support/utilities.rb	def full_title(page_title)
+full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
+should have the right links on the layout	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
+should include the base title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base title" do
+should include the page title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page title" do
+should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
