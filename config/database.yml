@@ -11,8 +11,8 @@ development:
 test:
   adapter: postgresql
   host: localhost
-  username: username
-  password: password
+  username: stefan
+  password: stef&kat2
   database: app_test
   pool: 5
   timeout: 5000  

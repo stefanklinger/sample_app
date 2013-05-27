@@ -1,5 +1,6 @@
-1369250905
+1369681366
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
+AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 Application	/home/stefan/rails/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/stefan/rails/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
@@ -15,16 +16,26 @@ User	/home/stefan/rails/sample_app/app/models/user.rb	class User
 User pages	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
 UsersController	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	class UsersController 
 UsersHelper	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	module UsersHelper
+VALID_EMAIL_REGEX	/home/stefan/rails/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def about
 change	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users.rb	  def change
+change	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	  def change
 contact	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def contact
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
+should be invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be invalid" do
+should be valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be valid" do
 should have the right links on the layout	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
 should include the base title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base title" do
 should include the page title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page title" do
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+when email address is already taken	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
+when email format is invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
+when email format is valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
+when email is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email is not present" do
+when name is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when name is not present" do
+when name is too long	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when name is too long" do
