@@ -1,4 +1,4 @@
-1369681873
+1369683049
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -41,3 +41,6 @@ when email format is valid	/home/stefan/rails/sample_app/spec/models/user_spec.r
 when email is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email is not present" do
 when name is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when name is not present" do
 when name is too long	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when name is too long" do
+when password confirmation is nil	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password confirmation is nil" do
+when password doesn't match confirmation	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
+when password is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
