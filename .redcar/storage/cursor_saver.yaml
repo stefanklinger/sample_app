@@ -40,8 +40,8 @@ cursor_positions:
     :cursor_offset: 0
     :timestamp: 2013-05-22 20:40:38 +02:00
   - :path: Gemfile
-    :cursor_offset: 188
-    :timestamp: 2013-05-22 21:26:58 +02:00
+    :cursor_offset: 126
+    :timestamp: 2013-05-27 20:59:56 +02:00
   - :path: spec/spec_helper.rb
     :cursor_offset: 1620
     :timestamp: 2013-05-20 14:12:53 +02:00
@@ -81,8 +81,8 @@ cursor_positions:
     :cursor_offset: 21
     :timestamp: 2013-05-22 21:11:04 +02:00
   - :path: app/models/user.rb
-    :cursor_offset: 341
-    :timestamp: 2013-05-25 13:13:46 +02:00
+    :cursor_offset: 321
+    :timestamp: 2013-05-27 20:57:43 +02:00
   - :path: script/rails
     :cursor_offset: 0
     :timestamp: 2013-05-15 21:45:17 +02:00
@@ -91,7 +91,7 @@ cursor_positions:
     :timestamp: 2013-05-15 21:45:17 +02:00
   - :path: db/schema.rb
     :cursor_offset: 0
-    :timestamp: 2013-05-22 21:21:53 +02:00
+    :timestamp: 2013-05-27 20:57:02 +02:00
   - :path: db/development.sqlite3
     :cursor_offset: 0
     :timestamp: 2013-05-15 21:51:01 +02:00
@@ -102,6 +102,9 @@ cursor_positions:
     :cursor_offset: 0
     :timestamp: 2013-05-22 21:20:21 +02:00
   - :path: spec/models/user_spec.rb
-    :cursor_offset: 455
-    :timestamp: 2013-05-25 12:58:22 +02:00
+    :cursor_offset: 642
+    :timestamp: 2013-05-27 21:02:46 +02:00
+  - :path: db/migrate/20130527185610_add_index_to_users_email.rb
+    :cursor_offset: 118
+    :timestamp: 2013-05-27 20:56:39 +02:00
 files_to_retain: 0
