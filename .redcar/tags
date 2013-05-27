@@ -1,4 +1,4 @@
-1369683049
+1369683993
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -28,6 +28,7 @@ full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
+return value of authenticate method	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be valid" do
 should have the right links on the layout	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
@@ -44,3 +45,5 @@ when name is too long	/home/stefan/rails/sample_app/spec/models/user_spec.rb	des
 when password confirmation is nil	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password confirmation is nil" do
 when password doesn't match confirmation	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
+with invalid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with valid password" do
