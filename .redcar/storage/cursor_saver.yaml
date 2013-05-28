@@ -33,9 +33,6 @@ cursor_positions:
   - :path: app/views/static_pages/contact.html.erb
     :cursor_offset: 182
     :timestamp: 2013-05-20 11:35:17 +02:00
-  - :path: config/database.yml
-    :cursor_offset: 663
-    :timestamp: 2013-05-25 13:10:34 +02:00
   - :path: Guardfile
     :cursor_offset: 0
     :timestamp: 2013-05-22 20:40:38 +02:00
@@ -80,9 +77,6 @@ cursor_positions:
   - :path: spec/requests/static_pages_spec.rb
     :cursor_offset: 21
     :timestamp: 2013-05-22 21:11:04 +02:00
-  - :path: app/models/user.rb
-    :cursor_offset: 321
-    :timestamp: 2013-05-27 20:57:43 +02:00
   - :path: script/rails
     :cursor_offset: 0
     :timestamp: 2013-05-15 21:45:17 +02:00
@@ -101,10 +95,18 @@ cursor_positions:
   - :path: db/migrate/20130522192021_create_users.rb
     :cursor_offset: 0
     :timestamp: 2013-05-22 21:20:21 +02:00
-  - :path: spec/models/user_spec.rb
-    :cursor_offset: 642
-    :timestamp: 2013-05-27 21:02:46 +02:00
   - :path: db/migrate/20130527185610_add_index_to_users_email.rb
     :cursor_offset: 118
     :timestamp: 2013-05-27 20:56:39 +02:00
+  - :path: config/database.yml
+    :cursor_offset: 396
+    :timestamp: 2013-05-27 21:10:45 +02:00
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 2732
+    :timestamp: 2013-05-27 21:46:33 +02:00
+  - :path: app/models/user.rb
+    :cursor_offset: 266
+    :timestamp: 2013-05-27 21:43:55 +02:00
+    :selection_offset: 254
+    :block_selection_mode: false
 files_to_retain: 0

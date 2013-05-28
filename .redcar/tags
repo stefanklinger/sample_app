@@ -1,4 +1,4 @@
-1369683993
+1369766680
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -23,18 +23,23 @@ change	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users.rb	 
 change	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	  def change
 change	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	  def change
 contact	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def contact
+email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
+gravatar_for	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user)
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
+profile page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
 return value of authenticate method	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be invalid" do
+should be saved as all lower-case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be saved as all lower-case" do
 should be valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be valid" do
 should have the right links on the layout	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
 should include the base title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base title" do
 should include the page title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page title" do
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
+show	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def show
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
 when email address is already taken	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
 when email format is invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
