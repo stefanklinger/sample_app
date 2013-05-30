@@ -1,4 +1,4 @@
-1369936851
+1369937437
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -14,9 +14,12 @@ Home page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	descr
 SampleApp	/home/stefan/rails/sample_app/config/application.rb	module SampleApp
 SessionsController	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
+Signing in	/home/stefan/rails/sample_app/features/signing_in.feature	Feature: Signing in
 Static pages	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	/home/stefan/rails/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+Successful signin	/home/stefan/rails/sample_app/features/signing_in.feature	Scenario: Successful signin
+Unsuccessful signin	/home/stefan/rails/sample_app/features/signing_in.feature	Scenario: Unsuccessful signin
 User	/home/stefan/rails/sample_app/app/models/user.rb	class User 
 User pages	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "User pages" do
 UsersController	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	class UsersController 
@@ -43,6 +46,10 @@ full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def
 full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 gravatar_for	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 })
 handle_unverified_request	/home/stefan/rails/sample_app/app/controllers/application_controller.rb	  def handle_unverified_request
+he should see a signout link	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	Then /^he should see a signout link$/ do
+he should see an error message	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	Then /^he should see an error message$/ do
+he should see his profile page	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	Then /^he should see his profile page$/ do
+he submits invalid signin information	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	When /^he submits invalid signin information$/ do
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
@@ -67,6 +74,8 @@ signin	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	
 signin page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
 signup	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+the user submits valid signin information	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	When /^the user submits valid signin information$/ do
+valid_signin	/home/stefan/rails/sample_app/spec/support/utilities.rb	def valid_signin(user)
 when email address is already taken	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
 when email format is invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
 when email format is valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
