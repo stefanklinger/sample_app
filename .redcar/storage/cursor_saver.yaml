@@ -12,9 +12,6 @@ cursor_positions:
   - :path: README.md
     :cursor_offset: 0
     :timestamp: 2013-05-15 21:52:48 +02:00
-  - :path: config/routes.rb
-    :cursor_offset: 0
-    :timestamp: 2013-05-22 20:40:38 +02:00
   - :path: app/controllers/static_pages_controller.rb
     :cursor_offset: 122
     :timestamp: 2013-05-20 11:29:17 +02:00
@@ -27,27 +24,18 @@ cursor_positions:
   - :path: app/views/static_pages/about.html.erb
     :cursor_offset: 0
     :timestamp: 2013-05-17 11:04:27 +02:00
-  - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 0
-    :timestamp: 2013-05-22 20:40:38 +02:00
   - :path: app/views/static_pages/contact.html.erb
     :cursor_offset: 182
     :timestamp: 2013-05-20 11:35:17 +02:00
   - :path: Guardfile
     :cursor_offset: 0
     :timestamp: 2013-05-22 20:40:38 +02:00
-  - :path: Gemfile
-    :cursor_offset: 126
-    :timestamp: 2013-05-27 20:59:56 +02:00
   - :path: spec/spec_helper.rb
     :cursor_offset: 1620
     :timestamp: 2013-05-20 14:12:53 +02:00
   - :path: app/helpers/application_helper.rb
     :cursor_offset: 262
     :timestamp: 2013-05-20 14:37:00 +02:00
-  - :path: app/assets/stylesheets/custom.css.scss
-    :cursor_offset: 0
-    :timestamp: 2013-05-22 20:40:38 +02:00
   - :path: app/views/layouts/_shim.html.erb
     :cursor_offset: 0
     :timestamp: 2013-05-22 20:40:38 +02:00
@@ -60,17 +48,6 @@ cursor_positions:
   - :path: spec/support/utilities.rb
     :cursor_offset: 27
     :timestamp: 2013-05-22 21:10:14 +02:00
-  - :path: app/controllers/users_controller.rb
-    :cursor_offset: 0
-    :timestamp: 2013-05-22 20:40:38 +02:00
-  - :path: app/views/users/new.html.erb
-    :cursor_offset: 50
-    :timestamp: 2013-05-22 20:40:38 +02:00
-  - :path: spec/requests/user_pages_spec.rb
-    :cursor_offset: 0
-    :timestamp: 2013-05-22 20:40:38 +02:00
-    :selection_offset: 21
-    :block_selection_mode: false
   - :path: spec/helpers/application_helper_spec.rb
     :cursor_offset: 406
     :timestamp: 2013-05-22 21:08:09 +02:00
@@ -102,14 +79,59 @@ cursor_positions:
     :cursor_offset: 396
     :timestamp: 2013-05-27 21:10:45 +02:00
   - :path: spec/models/user_spec.rb
-    :cursor_offset: 2732
-    :timestamp: 2013-05-27 21:46:33 +02:00
+    :cursor_offset: 1293
+    :timestamp: 2013-05-28 20:10:52 +02:00
   - :path: app/models/user.rb
-    :cursor_offset: 266
-    :timestamp: 2013-05-27 21:43:55 +02:00
-    :selection_offset: 254
+    :cursor_offset: 610
+    :timestamp: 2013-05-28 20:12:06 +02:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 458
+    :timestamp: 2013-05-28 21:12:36 +02:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 2323
+    :timestamp: 2013-05-28 21:07:55 +02:00
+  - :path: config/routes.rb
+    :cursor_offset: 60
+    :timestamp: 2013-05-28 20:27:39 +02:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 205
+    :timestamp: 2013-05-28 20:44:02 +02:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 329
+    :timestamp: 2013-05-28 21:15:27 +02:00
+  - :path: spec/requests/user_pages_spec.rb
+    :cursor_offset: 1173
+    :timestamp: 2013-05-28 20:49:06 +02:00
+  - :path: Gemfile
+    :cursor_offset: 658
+    :timestamp: 2013-05-28 20:34:02 +02:00
+  - :path: app/views/users/new.html.erb
+    :cursor_offset: 176
+    :timestamp: 2013-05-28 21:05:00 +02:00
+  - :path: config/environments/production.rb
+    :cursor_offset: 1145
+    :timestamp: 2013-05-28 21:15:49 +02:00
+  - :path: db/migrate/20130530144922_add_remember_token_to_users.rb
+    :cursor_offset: 162
+    :timestamp: 2013-05-30 17:09:04 +02:00
+    :selection_offset: 56
     :block_selection_mode: false
+  - :path: app/controllers/application_controller.rb
+    :cursor_offset: 205
+    :timestamp: 2013-05-30 16:47:18 +02:00
+  - :path: app/helpers/users_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2013-05-30 15:31:56 +02:00
+  - :path: config/environments/test.rb
+    :cursor_offset: 0
+    :timestamp: 2013-05-28 21:15:27 +02:00
+  - :path: spec/factories.rb
+    :cursor_offset: 0
+    :timestamp: 2013-05-28 21:15:27 +02:00
   - :path: app/views/shared/_error_messages.html.erb
     :cursor_offset: 0
-    :timestamp: 2013-05-28 21:05:43 +02:00
+    :timestamp: 2013-05-28 21:15:27 +02:00
+  - :path: app/controllers/sessions_controller.rb
+    :cursor_offset: 353
+    :timestamp: 2013-05-30 16:46:07 +02:00
 files_to_retain: 0

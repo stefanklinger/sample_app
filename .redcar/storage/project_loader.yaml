@@ -3,3 +3,16 @@ open_files:
   - config/database.yml
   - spec/models/user_spec.rb
   - app/models/user.rb
+  - app/views/layouts/application.html.erb
+  - app/assets/stylesheets/custom.css.scss
+  - config/routes.rb
+  - app/views/users/show.html.erb
+  - app/controllers/users_controller.rb
+  - spec/requests/user_pages_spec.rb
+  - Gemfile
+  - spec/factories.rb
+  - config/environments/test.rb
+  - app/helpers/users_helper.rb
+  - app/views/users/new.html.erb
+  - app/views/shared/_error_messages.html.erb
+  - config/environments/production.rb

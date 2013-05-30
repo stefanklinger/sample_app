@@ -1,15 +1,19 @@
-1369768549
+1369927532
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
+AddRememberTokenToUsers	/home/stefan/rails/sample_app/db/migrate/20130530144922_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
 Application	/home/stefan/rails/sample_app/config/application.rb	  class Application 
 ApplicationController	/home/stefan/rails/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Authentication	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "Authentication" do
 Contact page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
 CreateUsers	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users.rb	class CreateUsers 
 Help page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	/home/stefan/rails/sample_app/config/application.rb	module SampleApp
+SessionsController	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
 Static pages	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	/home/stefan/rails/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
@@ -19,19 +23,29 @@ UsersController	/home/stefan/rails/sample_app/app/controllers/users_controller.r
 UsersHelper	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	/home/stefan/rails/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def about
+after saving the user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
+after submission	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after submission" do
+after visiting another page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "after visiting another page" do
 change	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users.rb	  def change
 change	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	  def change
 change	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	  def change
+change	/home/stefan/rails/sample_app/db/migrate/20130530144922_add_remember_token_to_users.rb	  def change
 contact	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def contact
 create	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def create
+create	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def create
+create_remember_token	/home/stefan/rails/sample_app/app/models/user.rb	    def create_remember_token
+destroy	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def destroy
 email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
-gravatar_for	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user)
+gravatar_for	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 })
+handle_unverified_request	/home/stefan/rails/sample_app/app/controllers/application_controller.rb	  def handle_unverified_request
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
+new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
 profile page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+remember token	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "remember token" do
 return value of authenticate method	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be saved as all lower-case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be saved as all lower-case" do
@@ -43,6 +57,8 @@ should include the page title	/home/stefan/rails/sample_app/spec/helpers/applica
 should not create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 show	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def show
+signin	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
+signin page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
 signup	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
 when email address is already taken	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
@@ -55,6 +71,8 @@ when password confirmation is nil	/home/stefan/rails/sample_app/spec/models/user
 when password doesn't match confirmation	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
 with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with valid password" do
