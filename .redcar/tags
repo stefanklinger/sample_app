@@ -1,4 +1,4 @@
-1369935703
+1369936851
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -38,6 +38,7 @@ current_user	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def 
 current_user=	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 destroy	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def destroy
 email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
+followed by signout	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 gravatar_for	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 })
@@ -60,6 +61,7 @@ should not create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 show	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def show
 sign_in	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+sign_out	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
 signin	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
 signin page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
