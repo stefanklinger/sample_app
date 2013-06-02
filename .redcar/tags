@@ -1,4 +1,4 @@
-1370110303
+1370179293
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -85,9 +85,9 @@ when name is too long	/home/stefan/rails/sample_app/spec/models/user_spec.rb	des
 when password confirmation is nil	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password confirmation is nil" do
 when password doesn't match confirmation	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
-with invalid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
-with valid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with valid password" do
