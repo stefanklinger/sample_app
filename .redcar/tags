@@ -1,4 +1,4 @@
-1370194720
+1370195306
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -27,6 +27,7 @@ UsersHelper	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	module Use
 VALID_EMAIL_REGEX	/home/stefan/rails/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def about
 after saving the user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
+after signing in	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "after signing in" do
 after submission	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after submission" do
 after visiting another page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "after visiting another page" do
 as wrong user	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "as wrong user" do
@@ -37,8 +38,8 @@ change	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_dige
 change	/home/stefan/rails/sample_app/db/migrate/20130530144922_add_remember_token_to_users.rb	  def change
 contact	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def contact
 correct_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def correct_user
-create	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def create
 create	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def create
+create	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def create
 create_remember_token	/home/stefan/rails/sample_app/app/models/user.rb	    def create_remember_token
 current_user	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
@@ -60,10 +61,11 @@ he submits invalid signin information	/home/stefan/rails/sample_app/features/ste
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 in the Users controller	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
-new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
+new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
 page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
 profile page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+redirect_back_or	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
 remember token	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "remember token" do
 return value of authenticate method	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be invalid" do
@@ -75,6 +77,7 @@ should include the base title	/home/stefan/rails/sample_app/spec/helpers/applica
 should include the page title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page title" do
 should not create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
+should render the desired protected page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the desired protected page" do
 show	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def show
 sign_in	/home/stefan/rails/sample_app/spec/support/utilities.rb	def sign_in(user)
 sign_in	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
@@ -85,6 +88,7 @@ signin	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	
 signin page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
 signup	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+store_location	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def store_location
 submitting a PUT request to the Users#update action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a PUT request to the Users#update action" do
 submitting to the update action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the update action" do
 the user submits valid signin information	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	When /^the user submits valid signin information$/ do
@@ -92,6 +96,7 @@ update	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def u
 valid_signin	/home/stefan/rails/sample_app/spec/support/utilities.rb	def valid_signin(user)
 visiting Users#edit page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "visiting Users#edit page" do
 visiting the edit page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "visiting the edit page" do
+when attempting to visit a protected page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "when attempting to visit a protected page" do
 when email address is already taken	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
 when email format is invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
 when email format is valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
