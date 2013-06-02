@@ -1,4 +1,4 @@
-1370181154
+1370194367
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -29,6 +29,7 @@ about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	 
 after saving the user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
 after submission	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after submission" do
 after visiting another page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "after visiting another page" do
+authorization	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "authorization" do
 change	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users.rb	  def change
 change	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	  def change
 change	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	  def change
@@ -40,10 +41,11 @@ create_remember_token	/home/stefan/rails/sample_app/app/models/user.rb	    def c
 current_user	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 destroy	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def destroy
-edit	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
 edit	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def edit
+edit	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
 email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
 followed by signout	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
+for non-signed-in users	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 gravatar_for	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 })
@@ -54,6 +56,7 @@ he should see his profile page	/home/stefan/rails/sample_app/features/step_defin
 he submits invalid signin information	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	When /^he submits invalid signin information$/ do
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
+in the Users controller	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
 new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
 page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
@@ -74,13 +77,16 @@ sign_in	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_
 sign_in	/home/stefan/rails/sample_app/spec/support/utilities.rb	def sign_in(user)
 sign_out	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+signed_in_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def signed_in_user
 signin	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
 signin page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
 signup	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+submitting to the update action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the update action" do
 the user submits valid signin information	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	When /^the user submits valid signin information$/ do
 update	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def update
 valid_signin	/home/stefan/rails/sample_app/spec/support/utilities.rb	def valid_signin(user)
+visiting the edit page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "visiting the edit page" do
 when email address is already taken	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
 when email format is invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do
 when email format is valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when email format is valid" do
