@@ -83,42 +83,39 @@ cursor_positions:
   - :path: config/environments/test.rb
     :cursor_offset: 0
     :timestamp: 2013-05-28 21:15:27 +02:00
-  - :path: spec/factories.rb
-    :cursor_offset: 0
-    :timestamp: 2013-05-28 21:15:27 +02:00
   - :path: app/views/shared/_error_messages.html.erb
     :cursor_offset: 0
     :timestamp: 2013-05-28 21:15:27 +02:00
   - :path: config/database.yml
-    :cursor_offset: 396
-    :timestamp: 2013-05-27 21:10:45 +02:00
+    :cursor_offset: 0
+    :timestamp: 2013-05-30 20:11:54 +02:00
   - :path: spec/models/user_spec.rb
-    :cursor_offset: 3539
-    :timestamp: 2013-05-30 17:14:08 +02:00
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
   - :path: app/models/user.rb
     :cursor_offset: 516
     :timestamp: 2013-05-30 20:32:43 +02:00
   - :path: app/views/layouts/application.html.erb
-    :cursor_offset: 340
-    :timestamp: 2013-05-30 15:44:25 +02:00
+    :cursor_offset: 0
+    :timestamp: 2013-05-30 20:11:54 +02:00
   - :path: app/assets/stylesheets/custom.css.scss
     :cursor_offset: 0
-    :timestamp: 2013-05-28 21:15:27 +02:00
+    :timestamp: 2013-06-03 21:42:38 +02:00
   - :path: config/routes.rb
-    :cursor_offset: 40
-    :timestamp: 2013-05-30 16:14:31 +02:00
+    :cursor_offset: 0
+    :timestamp: 2013-05-30 20:11:54 +02:00
   - :path: app/views/users/show.html.erb
-    :cursor_offset: 140
-    :timestamp: 2013-05-30 15:34:28 +02:00
+    :cursor_offset: 0
+    :timestamp: 2013-05-30 20:11:54 +02:00
   - :path: app/controllers/users_controller.rb
-    :cursor_offset: 226
-    :timestamp: 2013-05-30 19:58:08 +02:00
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
   - :path: spec/requests/user_pages_spec.rb
-    :cursor_offset: 1705
-    :timestamp: 2013-05-30 19:59:12 +02:00
+    :cursor_offset: 943
+    :timestamp: 2013-06-03 21:42:39 +02:00
   - :path: Gemfile
-    :cursor_offset: 743
-    :timestamp: 2013-05-30 20:03:21 +02:00
+    :cursor_offset: 243
+    :timestamp: 2013-06-04 21:07:34 +02:00
   - :path: app/views/users/new.html.erb
     :cursor_offset: 0
     :timestamp: 2013-05-28 21:15:27 +02:00
@@ -126,33 +123,50 @@ cursor_positions:
     :cursor_offset: 1145
     :timestamp: 2013-05-28 21:15:49 +02:00
   - :path: config/locales/en.yml
-    :cursor_offset: 271
-    :timestamp: 2013-05-30 15:38:02 +02:00
-  - :path: spec/requests/authentication_pages_spec.rb
-    :cursor_offset: 1362
-    :timestamp: 2013-05-30 19:59:38 +02:00
-  - :path: app/views/sessions/new.html.erb
-    :cursor_offset: 453
-    :timestamp: 2013-05-30 16:27:04 +02:00
-  - :path: app/helpers/sessions_helper.rb
-    :cursor_offset: 443
-    :timestamp: 2013-05-30 20:00:51 +02:00
-  - :path: app/controllers/sessions_controller.rb
-    :cursor_offset: 357
-    :timestamp: 2013-05-30 20:00:18 +02:00
-  - :path: features/signing_in.feature
-    :cursor_offset: 418
-    :timestamp: 2013-05-30 20:05:42 +02:00
-  - :path: features/step_definitions/authentication_steps.rb
-    :cursor_offset: 808
-    :timestamp: 2013-05-30 20:08:24 +02:00
-  - :path: spec/support/utilities.rb
-    :cursor_offset: 311
+    :cursor_offset: 0
     :timestamp: 2013-05-30 20:11:54 +02:00
+  - :path: spec/requests/authentication_pages_spec.rb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: app/views/sessions/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-06-01 20:11:43 +02:00
+  - :path: app/helpers/sessions_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
   - :path: app/assets/javascripts/application.js
     :cursor_offset: 0
     :timestamp: 2013-05-30 20:11:54 +02:00
-  - :path: app/views/layouts/_header.html.erb
+  - :path: app/controllers/sessions_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: spec/support/utilities.rb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: app/views/users/_user.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: spec/factories.rb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: features/signing_in.feature
+    :cursor_offset: 0
+    :timestamp: 2013-05-30 20:11:54 +02:00
+  - :path: db/migrate/20130603191024_add_admin_to_users.rb
+    :cursor_offset: 0
+    :timestamp: 2013-06-03 21:42:39 +02:00
+  - :path: lib/tasks/sample_data.rake
+    :cursor_offset: 195
+    :timestamp: 2013-06-03 21:42:39 +02:00
+    :selection_offset: 170
+    :block_selection_mode: false
+  - :path: features/step_definitions/authentication_steps.rb
     :cursor_offset: 0
     :timestamp: 2013-05-30 20:11:54 +02:00
 files_to_retain: 0

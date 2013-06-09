@@ -22,3 +22,8 @@ open_files:
   - features/signing_in.feature
   - features/step_definitions/authentication_steps.rb
   - spec/support/utilities.rb
+  - app/views/users/index.html.erb
+  - app/views/users/_user.html.erb
+  - db/migrate/20130603191024_add_admin_to_users.rb
+  - lib/tasks/sample_data.rake
+  - spec/factories.rb
