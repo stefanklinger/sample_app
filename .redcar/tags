@@ -1,4 +1,4 @@
-1370890040
+1370890757
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -75,6 +75,7 @@ home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  
 in the Users controller	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
 index	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def index
 index	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
+micropost associations	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
 new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
 page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
@@ -88,7 +89,9 @@ should be invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "sho
 should be saved as all lower-case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be saved as all lower-case" do
 should be valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be valid" do
 should create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
+should destroy associated microposts	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should destroy associated microposts" do
 should have the right links on the layout	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
+should have the right microposts in the right order	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should have the right microposts in the right order" do
 should include the base title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the base title" do
 should include the page title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page title" do
 should list each user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should list each user" do
