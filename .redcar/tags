@@ -1,4 +1,4 @@
-1370891851
+1370892708
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
