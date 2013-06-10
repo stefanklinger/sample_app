@@ -1,4 +1,4 @@
-1370890757
+1370891851
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -29,8 +29,8 @@ UsersController	/home/stefan/rails/sample_app/app/controllers/users_controller.r
 UsersHelper	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	/home/stefan/rails/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def about
-accessible attributes	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "accessible attributes" do
 accessible attributes	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "accessible attributes" do
+accessible attributes	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "accessible attributes" do
 admin_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def admin_user
 after saving the user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
 after signing in	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "after signing in" do
@@ -57,8 +57,8 @@ current_user?	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def
 delete links	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "delete links" do
 destroy	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def destroy
 destroy	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def destroy
-edit	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def edit
 edit	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
+edit	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def edit
 email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
 followed by signout	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
 for non-signed-in users	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
@@ -73,9 +73,10 @@ he submits invalid signin information	/home/stefan/rails/sample_app/features/ste
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
 in the Users controller	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
-index	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def index
 index	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
+index	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def index
 micropost associations	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
+microposts	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "microposts" do
 new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
 page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "page" do
@@ -136,6 +137,8 @@ when password is not present	/home/stefan/rails/sample_app/spec/models/user_spec
 when signing in again	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "when signing in again" do
 when user_id is not present	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "when user_id is not present" do
 with admin attribute set to 'true'	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
+with blank content	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "with blank content" do
+with content that is too long	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "with content that is too long" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
