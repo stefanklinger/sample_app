@@ -1,4 +1,4 @@
-1370802819
+1370890040
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -9,9 +9,11 @@ ApplicationController	/home/stefan/rails/sample_app/app/controllers/application_
 ApplicationHelper	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
 Authentication	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "Authentication" do
 Contact page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateMicroposts	/home/stefan/rails/sample_app/db/migrate/20130610183401_create_microposts.rb	class CreateMicroposts 
 CreateUsers	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users.rb	class CreateUsers 
 Help page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
+Micropost	/home/stefan/rails/sample_app/app/models/micropost.rb	class Micropost 
 SampleApp	/home/stefan/rails/sample_app/config/application.rb	module SampleApp
 SessionsController	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
@@ -27,6 +29,7 @@ UsersController	/home/stefan/rails/sample_app/app/controllers/users_controller.r
 UsersHelper	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	/home/stefan/rails/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def about
+accessible attributes	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "accessible attributes" do
 accessible attributes	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "accessible attributes" do
 admin_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def admin_user
 after saving the user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
@@ -42,6 +45,7 @@ change	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_user
 change	/home/stefan/rails/sample_app/db/migrate/20130527190511_add_password_digest_to_users.rb	  def change
 change	/home/stefan/rails/sample_app/db/migrate/20130530144922_add_remember_token_to_users.rb	  def change
 change	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	  def change
+change	/home/stefan/rails/sample_app/db/migrate/20130610183401_create_microposts.rb	  def change
 contact	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def contact
 correct_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def correct_user
 create	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def create
@@ -89,6 +93,7 @@ should include the base title	/home/stefan/rails/sample_app/spec/helpers/applica
 should include the page title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should include the page title" do
 should list each user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should list each user" do
 should not allow access to admin	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should not allow access to admin" do
+should not allow access to user_id	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	it "should not allow access to user_id" do
 should not create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 should render the default (profile) page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the default (profile) page" do
@@ -126,6 +131,7 @@ when password confirmation is nil	/home/stefan/rails/sample_app/spec/models/user
 when password doesn't match confirmation	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
 when signing in again	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "when signing in again" do
+when user_id is not present	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "when user_id is not present" do
 with admin attribute set to 'true'	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
