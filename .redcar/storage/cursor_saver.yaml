@@ -109,9 +109,6 @@ cursor_positions:
   - :path: app/views/sessions/new.html.erb
     :cursor_offset: 0
     :timestamp: 2013-06-01 20:11:43 +02:00
-  - :path: app/helpers/sessions_helper.rb
-    :cursor_offset: 0
-    :timestamp: 2013-06-03 21:42:39 +02:00
   - :path: app/views/layouts/_header.html.erb
     :cursor_offset: 0
     :timestamp: 2013-06-03 21:42:39 +02:00
@@ -145,11 +142,6 @@ cursor_positions:
   - :path: app/views/layouts/_footer.html.erb
     :cursor_offset: 0
     :timestamp: 2013-05-22 20:40:38 +02:00
-  - :path: app/views/users/_fields.html.erb
-    :cursor_offset: 251
-    :timestamp: 2013-06-09 17:49:47 +02:00
-    :selection_offset: 233
-    :block_selection_mode: false
   - :path: db/migrate/20130610183401_create_microposts.rb
     :cursor_offset: 230
     :timestamp: 2013-06-10 20:36:01 +02:00
@@ -194,7 +186,30 @@ cursor_positions:
   - :path: config/routes.rb
     :cursor_offset: 162
     :timestamp: 2013-06-10 21:37:44 +02:00
+  - :path: spec/requests/micropost_pages_spec.rb
+    :cursor_offset: 769
+    :timestamp: 2013-06-17 21:38:26 +02:00
+  - :path: app/controllers/microposts_controller.rb
+    :cursor_offset: 658
+    :timestamp: 2013-06-17 21:39:51 +02:00
+  - :path: app/helpers/sessions_helper.rb
+    :cursor_offset: 523
+    :timestamp: 2013-06-17 21:11:02 +02:00
   - :path: spec/requests/authentication_pages_spec.rb
-    :cursor_offset: 1997
+    :cursor_offset: 1577
     :timestamp: 2013-06-10 21:39:51 +02:00
+    :selection_offset: 1583
+    :block_selection_mode: false
+  - :path: app/views/shared/_user_info.html.erb
+    :cursor_offset: 271
+    :timestamp: 2013-06-17 21:19:22 +02:00
+  - :path: app/views/shared/_micropost_form.html.erb
+    :cursor_offset: 267
+    :timestamp: 2013-06-17 21:19:35 +02:00
+  - :path: app/views/users/_fields.html.erb
+    :cursor_offset: 52
+    :timestamp: 2013-06-17 21:24:12 +02:00
+  - :path: app/views/shared/_feed.html.erb
+    :cursor_offset: 175
+    :timestamp: 2013-06-17 21:31:58 +02:00
 files_to_retain: 0
