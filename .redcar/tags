@@ -1,4 +1,4 @@
-1371496441
+1371497052
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -14,6 +14,7 @@ CreateUsers	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users
 Help page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 Micropost	/home/stefan/rails/sample_app/app/models/micropost.rb	class Micropost 
+Micropost pages	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	describe "Micropost pages" do
 MicropostsController	/home/stefan/rails/sample_app/app/controllers/microposts_controller.rb	class MicropostsController 
 SampleApp	/home/stefan/rails/sample_app/config/application.rb	module SampleApp
 SessionsController	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
@@ -63,6 +64,7 @@ destroy	/home/stefan/rails/sample_app/app/controllers/microposts_controller.rb	 
 edit	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
 edit	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def edit
 email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
+error messages	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	describe "error messages" do
 followed by signout	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
 for non-signed-in users	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
@@ -81,6 +83,7 @@ index	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "i
 index	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def index
 index	/home/stefan/rails/sample_app/app/controllers/microposts_controller.rb	  def index
 micropost associations	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
+micropost creation	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	describe "micropost creation" do
 microposts	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "microposts" do
 new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
 new	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def new
@@ -94,6 +97,7 @@ should be able to delete another user	/home/stefan/rails/sample_app/spec/request
 should be invalid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be saved as all lower-case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be saved as all lower-case" do
 should be valid	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should be valid" do
+should create a micropost	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	it "should create a micropost" do
 should create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
 should destroy associated microposts	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should destroy associated microposts" do
 should have the right links on the layout	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
@@ -103,6 +107,7 @@ should include the page title	/home/stefan/rails/sample_app/spec/helpers/applica
 should list each user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should list each user" do
 should not allow access to admin	/home/stefan/rails/sample_app/spec/models/user_spec.rb	it "should not allow access to admin" do
 should not allow access to user_id	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	it "should not allow access to user_id" do
+should not create a micropost	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	it "should not create a micropost" do
 should not create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 should render the default (profile) page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the default (profile) page" do
@@ -149,8 +154,10 @@ with content that is too long	/home/stefan/rails/sample_app/spec/models/micropos
 with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
+with invalid information	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	describe "with invalid information" do
 with invalid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
 with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
+with valid information	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	describe "with valid information" do
 with valid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with valid password" do
