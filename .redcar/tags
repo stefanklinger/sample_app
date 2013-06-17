@@ -1,4 +1,4 @@
-1371497052
+1371497752
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -31,8 +31,8 @@ UsersController	/home/stefan/rails/sample_app/app/controllers/users_controller.r
 UsersHelper	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	/home/stefan/rails/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def about
-accessible attributes	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "accessible attributes" do
 accessible attributes	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "accessible attributes" do
+accessible attributes	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "accessible attributes" do
 admin_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def admin_user
 after saving the user	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
 after signing in	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "after signing in" do
@@ -65,8 +65,10 @@ edit	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "ed
 edit	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def edit
 email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
 error messages	/home/stefan/rails/sample_app/spec/requests/micropost_pages_spec.rb	describe "error messages" do
+feed	/home/stefan/rails/sample_app/app/models/user.rb	  def feed
 followed by signout	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "followed by signout" do
 for non-signed-in users	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
+for signed-in users	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "for signed-in users" do
 full_title	/home/stefan/rails/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 full_title	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	describe "full_title" do
 gravatar_for	/home/stefan/rails/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, options = { size: 50 })
@@ -112,6 +114,7 @@ should not create a user	/home/stefan/rails/sample_app/spec/requests/user_pages_
 should not include a bar for the home page	/home/stefan/rails/sample_app/spec/helpers/application_helper_spec.rb	it "should not include a bar for the home page" do
 should render the default (profile) page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the default (profile) page" do
 should render the desired protected page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	it "should render the desired protected page" do
+should render the user's feed	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	it "should render the user's feed" do
 show	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def show
 sign_in	/home/stefan/rails/sample_app/spec/support/utilities.rb	def sign_in(user)
 sign_in	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
@@ -123,6 +126,7 @@ signin	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	
 signin page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
 signup	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+status	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "status" do
 store_location	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def store_location
 submitting a DELETE request to the Admin#destroy action	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "submitting a DELETE request to the Admin#destroy action" do
 submitting a DELETE request to the Users#destroy action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a DELETE request to the Users#destroy action" do
