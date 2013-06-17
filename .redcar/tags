@@ -1,4 +1,4 @@
-1370892708
+1371496441
 About page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	/home/stefan/rails/sample_app/db/migrate/20130603191024_add_admin_to_users.rb	class AddAdminToUsers 
 AddIndexToUsersEmail	/home/stefan/rails/sample_app/db/migrate/20130527185610_add_index_to_users_email.rb	class AddIndexToUsersEmail 
@@ -14,6 +14,7 @@ CreateUsers	/home/stefan/rails/sample_app/db/migrate/20130522192021_create_users
 Help page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	/home/stefan/rails/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 Micropost	/home/stefan/rails/sample_app/app/models/micropost.rb	class Micropost 
+MicropostsController	/home/stefan/rails/sample_app/app/controllers/microposts_controller.rb	class MicropostsController 
 SampleApp	/home/stefan/rails/sample_app/config/application.rb	module SampleApp
 SessionsController	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
@@ -50,6 +51,7 @@ contact	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb
 correct_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def correct_user
 create	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def create
 create	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def create
+create	/home/stefan/rails/sample_app/app/controllers/microposts_controller.rb	  def create
 create_remember_token	/home/stefan/rails/sample_app/app/models/user.rb	    def create_remember_token
 current_user	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
@@ -57,6 +59,7 @@ current_user?	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def
 delete links	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "delete links" do
 destroy	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def destroy
 destroy	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def destroy
+destroy	/home/stefan/rails/sample_app/app/controllers/microposts_controller.rb	  def destroy
 edit	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "edit" do
 edit	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def edit
 email address with mixed case	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "email address with mixed case" do
@@ -72,9 +75,11 @@ he should see his profile page	/home/stefan/rails/sample_app/features/step_defin
 he submits invalid signin information	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	When /^he submits invalid signin information$/ do
 help	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	/home/stefan/rails/sample_app/app/controllers/static_pages_controller.rb	  def home
+in the Microposts controller	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Microposts controller" do
 in the Users controller	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
 index	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "index" do
 index	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def index
+index	/home/stefan/rails/sample_app/app/controllers/microposts_controller.rb	  def index
 micropost associations	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "micropost associations" do
 microposts	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "microposts" do
 new	/home/stefan/rails/sample_app/app/controllers/sessions_controller.rb	  def new
@@ -107,7 +112,7 @@ sign_in	/home/stefan/rails/sample_app/spec/support/utilities.rb	def sign_in(user
 sign_in	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
 sign_out	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
-signed_in_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def signed_in_user
+signed_in_user	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  def signed_in_user
 signed_out_user	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	    def signed_out_user
 signin	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
 signin page	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin page" do
@@ -117,6 +122,8 @@ store_location	/home/stefan/rails/sample_app/app/helpers/sessions_helper.rb	  de
 submitting a DELETE request to the Admin#destroy action	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	it "submitting a DELETE request to the Admin#destroy action" do
 submitting a DELETE request to the Users#destroy action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a DELETE request to the Users#destroy action" do
 submitting a PUT request to the Users#update action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting a PUT request to the Users#update action" do
+submitting to the create action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the create action" do
+submitting to the destroy action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the destroy action" do
 submitting to the update action	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the update action" do
 the user submits valid signin information	/home/stefan/rails/sample_app/features/step_definitions/authentication_steps.rb	When /^the user submits valid signin information$/ do
 update	/home/stefan/rails/sample_app/app/controllers/users_controller.rb	  def update
@@ -139,11 +146,11 @@ when user_id is not present	/home/stefan/rails/sample_app/spec/models/micropost_
 with admin attribute set to 'true'	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
 with blank content	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "with blank content" do
 with content that is too long	/home/stefan/rails/sample_app/spec/models/micropost_spec.rb	describe "with content that is too long" do
+with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
 with invalid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
-with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
-with invalid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
 with invalid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid information	/home/stefan/rails/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
-with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
-with valid information	/home/stefan/rails/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid password	/home/stefan/rails/sample_app/spec/models/user_spec.rb	describe "with valid password" do

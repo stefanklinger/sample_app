@@ -80,11 +80,6 @@ cursor_positions:
   - :path: db/migrate/20130603191024_add_admin_to_users.rb
     :cursor_offset: 0
     :timestamp: 2013-06-03 21:42:39 +02:00
-  - :path: lib/tasks/sample_data.rake
-    :cursor_offset: 195
-    :timestamp: 2013-06-03 21:42:39 +02:00
-    :selection_offset: 170
-    :block_selection_mode: false
   - :path: features/step_definitions/authentication_steps.rb
     :cursor_offset: 0
     :timestamp: 2013-05-30 20:11:54 +02:00
@@ -94,30 +89,9 @@ cursor_positions:
   - :path: config/database.yml
     :cursor_offset: 0
     :timestamp: 2013-05-30 20:11:54 +02:00
-  - :path: spec/models/user_spec.rb
-    :cursor_offset: 0
-    :timestamp: 2013-06-09 20:02:08 +02:00
-  - :path: app/models/user.rb
-    :cursor_offset: 515
-    :timestamp: 2013-06-09 17:34:02 +02:00
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 626
     :timestamp: 2013-06-09 19:48:25 +02:00
-  - :path: app/assets/stylesheets/custom.css.scss
-    :cursor_offset: 0
-    :timestamp: 2013-06-03 21:42:38 +02:00
-  - :path: config/routes.rb
-    :cursor_offset: 0
-    :timestamp: 2013-05-30 20:11:54 +02:00
-  - :path: app/views/users/show.html.erb
-    :cursor_offset: 0
-    :timestamp: 2013-05-30 20:11:54 +02:00
-  - :path: app/controllers/users_controller.rb
-    :cursor_offset: 575
-    :timestamp: 2013-06-09 20:30:44 +02:00
-  - :path: spec/requests/user_pages_spec.rb
-    :cursor_offset: 1399
-    :timestamp: 2013-06-09 20:33:39 +02:00
   - :path: Gemfile
     :cursor_offset: 243
     :timestamp: 2013-06-04 21:07:34 +02:00
@@ -132,9 +106,6 @@ cursor_positions:
   - :path: config/locales/en.yml
     :cursor_offset: 0
     :timestamp: 2013-05-30 20:11:54 +02:00
-  - :path: spec/requests/authentication_pages_spec.rb
-    :cursor_offset: 0
-    :timestamp: 2013-06-09 20:17:03 +02:00
   - :path: app/views/sessions/new.html.erb
     :cursor_offset: 0
     :timestamp: 2013-06-01 20:11:43 +02:00
@@ -159,9 +130,6 @@ cursor_positions:
   - :path: app/views/users/_user.html.erb
     :cursor_offset: 0
     :timestamp: 2013-06-03 21:42:39 +02:00
-  - :path: spec/factories.rb
-    :cursor_offset: 0
-    :timestamp: 2013-06-03 21:42:39 +02:00
   - :path: app/views/users/edit.html.erb
     :cursor_offset: 189
     :timestamp: 2013-06-09 19:32:03 +02:00
@@ -182,4 +150,51 @@ cursor_positions:
     :timestamp: 2013-06-09 17:49:47 +02:00
     :selection_offset: 233
     :block_selection_mode: false
+  - :path: db/migrate/20130610183401_create_microposts.rb
+    :cursor_offset: 230
+    :timestamp: 2013-06-10 20:36:01 +02:00
+  - :path: app/models/micropost.rb
+    :cursor_offset: 332
+    :timestamp: 2013-06-10 21:01:35 +02:00
+  - :path: spec/models/micropost_spec.rb
+    :cursor_offset: 950
+    :timestamp: 2013-06-10 21:16:44 +02:00
+  - :path: config/application.rb
+    :cursor_offset: 2805
+    :timestamp: 2013-05-15 21:45:17 +02:00
+    :selection_offset: 2811
+    :block_selection_mode: false
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 4284
+    :timestamp: 2013-06-10 20:55:01 +02:00
+  - :path: app/models/user.rb
+    :cursor_offset: 666
+    :timestamp: 2013-06-10 20:55:49 +02:00
+  - :path: spec/factories.rb
+    :cursor_offset: 326
+    :timestamp: 2013-06-10 20:59:17 +02:00
+  - :path: spec/requests/user_pages_spec.rb
+    :cursor_offset: 2224
+    :timestamp: 2013-06-10 21:03:25 +02:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 461
+    :timestamp: 2013-06-10 21:09:10 +02:00
+  - :path: app/views/microposts/_micropost.html.erb
+    :cursor_offset: 166
+    :timestamp: 2013-06-10 21:16:35 +02:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 274
+    :timestamp: 2013-06-10 21:17:31 +02:00
+  - :path: lib/tasks/sample_data.rake
+    :cursor_offset: 794
+    :timestamp: 2013-06-10 21:25:48 +02:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 2881
+    :timestamp: 2013-06-10 21:31:48 +02:00
+  - :path: config/routes.rb
+    :cursor_offset: 162
+    :timestamp: 2013-06-10 21:37:44 +02:00
+  - :path: spec/requests/authentication_pages_spec.rb
+    :cursor_offset: 1997
+    :timestamp: 2013-06-10 21:39:51 +02:00
 files_to_retain: 0

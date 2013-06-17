@@ -1,3 +1,17 @@
 --- 
-open_files: []
-
+open_files: 
+  - db/migrate/20130610183401_create_microposts.rb
+  - app/models/micropost.rb
+  - spec/models/micropost_spec.rb
+  - config/application.rb
+  - spec/models/user_spec.rb
+  - app/models/user.rb
+  - spec/factories.rb
+  - spec/requests/user_pages_spec.rb
+  - app/views/users/show.html.erb
+  - app/views/microposts/_micropost.html.erb
+  - app/controllers/users_controller.rb
+  - lib/tasks/sample_data.rake
+  - app/assets/stylesheets/custom.css.scss
+  - config/routes.rb
+  - spec/requests/authentication_pages_spec.rb
