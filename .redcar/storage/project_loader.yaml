@@ -14,4 +14,11 @@ open_files:
   - lib/tasks/sample_data.rake
   - app/assets/stylesheets/custom.css.scss
   - config/routes.rb
-  - spec/requests/authentication_pages_spec.rb
+  - app/views/static_pages/home.html.erb
+  - app/views/shared/_error_messages.html.erb
+  - app/controllers/static_pages_controller.rb
+  - app/views/users/new.html.erb
+  - app/views/users/_user.html.erb
+  - spec/requests/static_pages_spec.rb
+  - app/views/shared/_feed_item.html.erb
+  - spec/requests/micropost_pages_spec.rb

@@ -25,6 +25,7 @@ class User < ActiveRecord::Base
                     uniqueness: { case_sensitive: false }
   has_secure_password
   has_many :microposts, dependent: :destroy
+  has_many :relationships, foreign_key: "follower_id", dependent: :destroy
   
   validates :password_confirmation, presence: true
   validates :password, length: { minimum: 6 }
