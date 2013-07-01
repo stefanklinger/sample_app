@@ -131,8 +131,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.redcar/lucene/segments_iw" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.redcar/lucene/segments_j8" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.redcar/redcar.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/relationship.rb" afterPath="$PROJECT_DIR$/app/models/relationship.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/relationship_spec.rb" afterPath="$PROJECT_DIR$/spec/models/relationship_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
     </list>
@@ -224,7 +222,7 @@
       <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="207" column="7" selection-start="5864" selection-end="5864" vertical-scroll-proportion="0.0">
+            <state line="209" column="0" selection-start="5874" selection-end="5874" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -233,7 +231,7 @@
       <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="5" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.9582754">
+            <state line="26" column="2" selection-start="884" selection-end="884" vertical-scroll-proportion="0.43671766">
               <folding />
             </state>
           </provider>
@@ -1116,14 +1114,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="7" selection-start="5864" selection-end="5864" vertical-scroll-proportion="0.0">
+        <state line="209" column="0" selection-start="5874" selection-end="5874" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="5" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.9582754">
+        <state line="26" column="2" selection-start="884" selection-end="884" vertical-scroll-proportion="0.43671766">
           <folding />
         </state>
       </provider>
