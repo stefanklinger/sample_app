@@ -131,12 +131,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.redcar/lucene/segments_iw" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.redcar/lucene/segments_j8" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.redcar/redcar.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.redcar/lucene/segments.gen" afterPath="$PROJECT_DIR$/.redcar/lucene/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.redcar/storage/cursor_saver.yaml" afterPath="$PROJECT_DIR$/.redcar/storage/cursor_saver.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.redcar/lucene_last_updated" afterPath="$PROJECT_DIR$/.redcar/lucene_last_updated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.redcar/storage/project_loader.yaml" afterPath="$PROJECT_DIR$/.redcar/storage/project_loader.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.redcar/tags" afterPath="$PROJECT_DIR$/.redcar/tags" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/relationship.rb" afterPath="$PROJECT_DIR$/app/models/relationship.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/relationship_spec.rb" afterPath="$PROJECT_DIR$/spec/models/relationship_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
     </list>
@@ -210,16 +206,16 @@
       <file leaf-file-name="relationship_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/relationship_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+            <state line="35" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relationship.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="relationship.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/relationship.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10431154">
+            <state line="7" column="40" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,16 +224,16 @@
       <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="30" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+            <state line="207" column="7" selection-start="5864" selection-end="5864" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="74" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+            <state line="50" column="5" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.9582754">
               <folding />
             </state>
           </provider>
@@ -272,10 +268,10 @@
       <list>
         <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130701183410_create_relationships.rb" />
-        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/spec/models/relationship_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/relationship.rb" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -1097,20 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="30" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="74" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/micropost.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1120,14 +1102,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/relationship_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+        <state line="35" column="5" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/relationship.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10431154">
+        <state line="7" column="40" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="7" selection-start="5864" selection-end="5864" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="5" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.9582754">
           <folding />
         </state>
       </provider>
